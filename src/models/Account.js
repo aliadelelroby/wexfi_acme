@@ -10,9 +10,13 @@ class Account {
     return {
       Email: this.email,
       Registration: this.registration,
-      PrivateKey: this.privateKey,
+      PrivateKey: this.encodeKey(this.privateKey),
       KeyType: this.keyType,
     };
+  }
+
+  encodeKey(key) {
+    return Buffer.from(key).toString("base64");
   }
 }
 
