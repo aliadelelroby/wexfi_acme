@@ -42,6 +42,10 @@ class CertificateService {
   }
 
   encodeCertificateChain(certificate, chain) {
+    if (!Array.isArray(chain)) {
+      logger.warn(`Chain is not an array for certificate: ${certificate}`);
+      return Buffer.from(certificate).toString("base64");
+    }
     const fullChain = [certificate, ...chain].join("\n");
     return Buffer.from(fullChain).toString("base64");
   }
