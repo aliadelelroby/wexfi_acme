@@ -44,10 +44,10 @@ class CertificateService {
 
   formatAndEncodeCertificateChain(certificate, chain) {
     const pemCertificate = this.formatPEM(certificate, "CERTIFICATE");
-    const pemChain = chain
-      .map((cert) => this.formatPEM(cert, "CERTIFICATE"))
-      .join("\n");
-    const fullChain = pemCertificate + "\n" + pemChain;
+    const pemChain = Array.isArray(chain)
+      ? chain.map((cert) => this.formatPEM(cert, "CERTIFICATE")).join("\n")
+      : "";
+    const fullChain = pemCertificate + (pemChain ? "\n" + pemChain : "");
     return Buffer.from(fullChain).toString("base64");
   }
 
@@ -57,6 +57,10 @@ class CertificateService {
   }
 
   formatPEM(data, type) {
+    if (!data) {
+      logger.warn(`Attempted to format undefined PEM data for type: ${type}`);
+      return "";
+    }
     const pemHeader = `-----BEGIN ${type}-----\n`;
     const pemFooter = `\n-----END ${type}-----`;
     const pemContent = data.match(/.{1,64}/g).join("\n");
