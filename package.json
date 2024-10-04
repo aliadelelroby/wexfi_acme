@@ -1,0 +1,14 @@
+{
+  "name": "wexfi_cert_auto_renew",
+  "version": "1.0.0",
+  "description": "Automatic Let's Encrypt certificate renewal and management",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "start:production": "NODE_ENV=production node src/app.js"
+  },
+  "dependencies": {
+    "acme-client": "^4.2.5",
+    "winston": "^3.8.2"
+  }
+}

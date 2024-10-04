@@ -1,0 +1,12 @@
+{
+  "email": "contact@wexfi.com",
+  "domains": [
+    {
+      "main": "www.wexfi.com",
+      "sans": ["wexfi.com"]
+    },
+    "api.wexfi.com",
+    "socket.wexfi.com"
+  ],
+  "outputPath": "./acme.json"
+}

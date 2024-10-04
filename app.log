@@ -1,0 +1,320 @@
+2024-10-04T06:04:09.027Z [error]: Error in main process: this.client.getAccountKey is not a function
+2024-10-04T06:05:05.797Z [info]: LetsEncrypt account created
+2024-10-04T06:05:08.329Z [info]: Challenge created for traefik.wexfi.com
+2024-10-04T06:07:17.793Z [info]: LetsEncrypt account created
+2024-10-04T06:07:19.902Z [info]: Challenge created for traefik.wexfi.com
+2024-10-04T06:08:12.067Z [info]: Initializing LetsEncrypt service...
+2024-10-04T06:08:12.184Z [info]: Creating ACME account...
+2024-10-04T06:08:13.991Z [info]: LetsEncrypt account created successfully
+2024-10-04T06:08:13.992Z [info]: Starting certificate acquisition for traefik.wexfi.com
+2024-10-04T06:08:13.993Z [info]: Generating CSR for traefik.wexfi.com
+2024-10-04T06:08:14.322Z [info]: Initiating ACME challenge for traefik.wexfi.com
+2024-10-04T06:08:16.125Z [info]: Challenge created for traefik.wexfi.com
+2024-10-04T06:08:16.125Z [info]: Challenge type: http-01
+2024-10-04T06:08:16.126Z [info]: File path: /.well-known/acme-challenge/Wnk5W1Eo6h7hlJFVAVmvr3AbpXntRJtZ9Qf1D1UwazA
+2024-10-04T06:08:16.126Z [info]: File content: Wnk5W1Eo6h7hlJFVAVmvr3AbpXntRJtZ9Qf1D1UwazA.kr_EwarqOq1BNqdTTc9l-3gLPz1pHM42tspSxGiNKxQ
+2024-10-04T06:08:54.438Z [info]: Initializing LetsEncrypt service...
+2024-10-04T06:08:54.666Z [info]: Creating ACME account...
+2024-10-04T06:08:56.170Z [info]: LetsEncrypt account created successfully
+2024-10-04T06:08:56.171Z [info]: Starting certificate acquisition for portainer.wexfi.com
+2024-10-04T06:08:56.171Z [info]: Generating CSR for portainer.wexfi.com
+2024-10-04T06:08:56.478Z [info]: Initiating ACME challenge for portainer.wexfi.com
+2024-10-04T06:08:58.315Z [info]: Challenge created for portainer.wexfi.com
+2024-10-04T06:08:58.315Z [info]: Challenge type: http-01
+2024-10-04T06:08:58.316Z [info]: File path: /.well-known/acme-challenge/X-OKtxxsGZz1uJhyLm6RJiHCFpwiR4D-Vp8BqxNJv6M
+2024-10-04T06:08:58.316Z [info]: File content: X-OKtxxsGZz1uJhyLm6RJiHCFpwiR4D-Vp8BqxNJv6M.du2C_rn0QFmSBaNhOcrm9BLyCnD64lcuVljXFmSGQKQ
+2024-10-04T06:11:56.055Z [info]: Initializing LetsEncrypt service...
+2024-10-04T06:11:56.207Z [info]: Creating ACME account...
+2024-10-04T06:11:57.739Z [info]: LetsEncrypt account created successfully
+2024-10-04T06:11:57.740Z [info]: Starting certificate acquisition for portainer.wexfi.com
+2024-10-04T06:11:57.740Z [info]: Generating CSR for portainer.wexfi.com
+2024-10-04T06:11:58.078Z [info]: Initiating ACME challenge for portainer.wexfi.com
+2024-10-04T06:11:59.725Z [info]: Challenge created for portainer.wexfi.com
+2024-10-04T06:11:59.725Z [info]: Challenge type: http-01
+2024-10-04T06:11:59.725Z [info]: File path: /.well-known/acme-challenge/hzaQXFSRhcqehkPvFf-atLDIwx9RHx_V8NOlYTA_5ec
+2024-10-04T06:11:59.726Z [info]: File content: hzaQXFSRhcqehkPvFf-atLDIwx9RHx_V8NOlYTA_5ec.AjBZOm552-wmvwFYJEwvSAqCzC0eZ-rt-Q06qSQ8UJE
+2024-10-04T06:14:48.009Z [info]: Initializing LetsEncrypt service...
+2024-10-04T06:14:48.303Z [info]: Creating ACME account...
+2024-10-04T06:14:49.970Z [info]: LetsEncrypt account created successfully
+2024-10-04T06:14:49.970Z [info]: Starting certificate acquisition for www.wexfi.com
+2024-10-04T06:14:49.971Z [info]: Generating CSR for www.wexfi.com
+2024-10-04T06:14:50.234Z [info]: Initiating ACME challenge for www.wexfi.com
+2024-10-04T06:14:52.000Z [info]: Challenge created for www.wexfi.com
+2024-10-04T06:14:52.001Z [info]: Challenge type: http-01
+2024-10-04T06:14:52.001Z [info]: File path: /.well-known/acme-challenge/fen3ZybfdGuHEdCBrKbhu3105fuEVc2cNyzVpk3by6M
+2024-10-04T06:14:52.001Z [info]: File content: fen3ZybfdGuHEdCBrKbhu3105fuEVc2cNyzVpk3by6M.bl2sXLZ_RJTCnJHi3qZ5_2sPYkEaH83YU4_wkYFzFqg
+2024-10-04T06:25:17.846Z [info]: Initializing LetsEncrypt service...
+2024-10-04T06:25:18.032Z [info]: Creating ACME account...
+2024-10-04T06:25:19.621Z [info]: LetsEncrypt account created successfully
+2024-10-04T06:25:19.622Z [info]: Starting certificate acquisition for www.wexfi.com
+2024-10-04T06:25:19.622Z [info]: Generating CSR for www.wexfi.com
+2024-10-04T06:25:20.100Z [info]: Initiating ACME challenge for www.wexfi.com
+2024-10-04T06:25:21.875Z [info]: Challenge created for www.wexfi.com
+2024-10-04T06:25:21.875Z [info]: Challenge type: http-01
+2024-10-04T06:25:21.876Z [info]: File path: /.well-known/acme-challenge/Q34A5nmm0m9uBct7R3VJmLlJQaiedD8YAfE3z0vxr9o
+2024-10-04T06:25:21.876Z [info]: File content: Q34A5nmm0m9uBct7R3VJmLlJQaiedD8YAfE3z0vxr9o.CVG-kaEbl0o8vdhAMJUzAyefKLWDPD-w_3NhPP2AMIg
+2024-10-04T06:32:19.405Z [info]: Initializing LetsEncrypt service...
+2024-10-04T06:32:19.691Z [info]: Creating ACME account...
+2024-10-04T06:32:21.298Z [info]: LetsEncrypt account created successfully
+2024-10-04T06:32:21.299Z [info]: Starting certificate acquisition for www.wexfi.com
+2024-10-04T06:32:21.299Z [info]: Generating CSR for www.wexfi.com
+2024-10-04T06:32:21.708Z [info]: Initiating ACME challenge for www.wexfi.com
+2024-10-04T06:32:23.449Z [info]: Challenge created for www.wexfi.com
+2024-10-04T06:32:23.449Z [info]: Challenge type: http-01
+2024-10-04T06:32:23.449Z [info]: File path: /.well-known/acme-challenge/SMB5CLqr-eGReBWc3NkEDN4SqLig3nkRn6_MkLgyaUk
+2024-10-04T06:32:23.449Z [info]: File content: SMB5CLqr-eGReBWc3NkEDN4SqLig3nkRn6_MkLgyaUk.jQ0kY83cHRSrVvVH8ctgGrV2qXHtXXGoQ2euo19pKLg
+2024-10-04T06:51:44.881Z [info]: Initializing LetsEncrypt service...
+2024-10-04T06:51:44.953Z [info]: Creating ACME account...
+2024-10-04T06:51:46.516Z [info]: LetsEncrypt account created successfully
+2024-10-04T06:51:46.517Z [info]: Starting certificate acquisition for www.wexfi.com
+2024-10-04T06:51:46.517Z [info]: Generating CSR for www.wexfi.com
+2024-10-04T06:51:46.836Z [info]: Initiating ACME challenge for www.wexfi.com
+2024-10-04T06:51:48.659Z [info]: Challenge created for www.wexfi.com
+2024-10-04T06:51:48.660Z [info]: Challenge type: dns-01
+2024-10-04T06:51:48.660Z [info]: File path: /.well-known/acme-challenge/WIN7jdrYbWFzfZaZEN6z211ZT2MZcwrhlYFasL2c1aI
+2024-10-04T06:51:48.660Z [info]: File content: bjF0fqu9rlo77TjiQyHsUu4DMMi-lXasOw2SHBvMnQg
+2024-10-04T06:52:31.570Z [info]: Initializing LetsEncrypt service...
+2024-10-04T06:52:31.792Z [info]: Creating ACME account...
+2024-10-04T06:52:33.322Z [info]: LetsEncrypt account created successfully
+2024-10-04T06:52:33.322Z [info]: Starting certificate acquisition for www.wexfi.com
+2024-10-04T06:52:33.322Z [info]: Generating CSR for www.wexfi.com
+2024-10-04T06:52:33.763Z [info]: Initiating ACME challenge for www.wexfi.com
+2024-10-04T06:52:35.465Z [info]: Challenge created for www.wexfi.com
+2024-10-04T06:52:35.466Z [info]: Challenge type: dns-01
+2024-10-04T06:52:35.466Z [info]: DNS record name: _acme-challenge.www.wexfi.com
+2024-10-04T06:52:35.466Z [info]: DNS record value: joa9Tg-vNg7NbwZGjEdQUpBZ9A903ll-dIwjV8hxy1I
+2024-10-04T06:53:25.065Z [info]: Initializing LetsEncrypt service...
+2024-10-04T06:53:25.288Z [info]: Creating ACME account...
+2024-10-04T06:53:26.776Z [info]: LetsEncrypt account created successfully
+2024-10-04T06:53:26.777Z [info]: Starting certificate acquisition for www.wexfi.com
+2024-10-04T06:53:26.777Z [info]: Generating CSR for www.wexfi.com
+2024-10-04T06:53:26.951Z [info]: Initiating ACME challenge for www.wexfi.com
+2024-10-04T06:53:28.612Z [info]: Challenge created for www.wexfi.com
+2024-10-04T06:53:28.612Z [info]: Challenge type: dns-01
+2024-10-04T06:53:28.613Z [info]: DNS record name: _acme-challenge.www.wexfi.com
+2024-10-04T06:53:28.613Z [info]: DNS record value: dw039odbn7BHKs_aHsjlbfHL9sgYGdDV94Pd6GygO9o
+2024-10-04T06:57:07.146Z [info]: Challenge removed for www.wexfi.com
+2024-10-04T06:57:07.147Z [info]: DNS record name: _acme-challenge.www.wexfi.com
+2024-10-04T06:57:09.383Z [error]: Error getting certificate for www.wexfi.com: No TXT records found for name: _acme-challenge.www.wexfi.com
+2024-10-04T06:57:09.384Z [error]: Failed to renew certificate for [object Object]: No TXT records found for name: _acme-challenge.www.wexfi.com
+2024-10-04T06:57:09.384Z [info]: Starting certificate acquisition for api.wexfi.com
+2024-10-04T06:57:09.384Z [info]: Generating CSR for api.wexfi.com
+2024-10-04T06:57:09.683Z [info]: Initiating ACME challenge for api.wexfi.com
+2024-10-04T06:57:11.436Z [info]: Challenge created for api.wexfi.com
+2024-10-04T06:57:11.436Z [info]: Challenge type: dns-01
+2024-10-04T06:57:11.436Z [info]: DNS record name: _acme-challenge.api.wexfi.com
+2024-10-04T06:57:11.436Z [info]: DNS record value: x4gq_vVrQwdchhXSl9TdDYZUfdhuPKReXNz9CvjnHnc
+2024-10-04T07:00:24.647Z [info]: Initializing LetsEncrypt service...
+2024-10-04T07:00:24.932Z [info]: Creating ACME account...
+2024-10-04T07:00:26.505Z [info]: LetsEncrypt account created successfully
+2024-10-04T07:00:26.506Z [info]: Starting certificate acquisition for www.wexfi.com
+2024-10-04T07:00:26.506Z [info]: Generating CSR for www.wexfi.com
+2024-10-04T07:00:26.922Z [info]: Initiating ACME challenge for www.wexfi.com
+2024-10-04T07:00:28.711Z [info]: Challenge created for www.wexfi.com
+2024-10-04T07:00:28.711Z [info]: Challenge type: dns-01
+2024-10-04T07:00:28.711Z [info]: DNS record name: _acme-challenge.www.wexfi.com
+2024-10-04T07:00:28.712Z [info]: DNS record value: -DIQLymHRRF2ZobXUPeoxwXYbpgBfyje6C4beXhU8J0
+2024-10-04T07:00:28.713Z [info]: Challenge removed for www.wexfi.com
+2024-10-04T07:00:28.713Z [info]: DNS record name: _acme-challenge.www.wexfi.com
+2024-10-04T07:00:29.577Z [error]: Error getting certificate for www.wexfi.com: this.waitForDNSPropagation is not a function
+2024-10-04T07:00:29.577Z [error]: Failed to renew certificate for [object Object]: this.waitForDNSPropagation is not a function
+2024-10-04T07:00:29.577Z [info]: Starting certificate acquisition for api.wexfi.com
+2024-10-04T07:00:29.577Z [info]: Generating CSR for api.wexfi.com
+2024-10-04T07:00:29.817Z [info]: Initiating ACME challenge for api.wexfi.com
+2024-10-04T07:00:31.616Z [info]: Challenge created for api.wexfi.com
+2024-10-04T07:00:31.616Z [info]: Challenge type: dns-01
+2024-10-04T07:00:31.617Z [info]: DNS record name: _acme-challenge.api.wexfi.com
+2024-10-04T07:00:31.617Z [info]: DNS record value: b9cLKyvXH7yXiLOsePyMzBDoCM-SXY86I5zIE8UvtLk
+2024-10-04T07:00:31.617Z [info]: Challenge removed for api.wexfi.com
+2024-10-04T07:00:31.617Z [info]: DNS record name: _acme-challenge.api.wexfi.com
+2024-10-04T07:00:32.411Z [error]: Error getting certificate for api.wexfi.com: this.waitForDNSPropagation is not a function
+2024-10-04T07:00:32.411Z [error]: Failed to renew certificate for api.wexfi.com: this.waitForDNSPropagation is not a function
+2024-10-04T07:00:32.411Z [info]: Starting certificate acquisition for socket.wexfi.com
+2024-10-04T07:00:32.411Z [info]: Generating CSR for socket.wexfi.com
+2024-10-04T07:00:32.701Z [info]: Initiating ACME challenge for socket.wexfi.com
+2024-10-04T07:00:34.384Z [info]: Challenge created for socket.wexfi.com
+2024-10-04T07:00:34.384Z [info]: Challenge type: dns-01
+2024-10-04T07:00:34.384Z [info]: DNS record name: _acme-challenge.socket.wexfi.com
+2024-10-04T07:00:34.384Z [info]: DNS record value: cTAxgit9OHqAKXBulibqzYWljg7_uP67W1Gn32bBsxM
+2024-10-04T07:00:34.385Z [info]: Challenge removed for socket.wexfi.com
+2024-10-04T07:00:34.385Z [info]: DNS record name: _acme-challenge.socket.wexfi.com
+2024-10-04T07:00:35.209Z [error]: Error getting certificate for socket.wexfi.com: this.waitForDNSPropagation is not a function
+2024-10-04T07:00:35.210Z [error]: Failed to renew certificate for socket.wexfi.com: this.waitForDNSPropagation is not a function
+2024-10-04T07:00:35.212Z [info]: Output file written to ./acme.json
+2024-10-04T07:00:35.212Z [info]: Certificate renewal process completed successfully
+2024-10-04T07:01:30.981Z [info]: Initializing LetsEncrypt service...
+2024-10-04T07:01:31.417Z [info]: Creating ACME account...
+2024-10-04T07:01:32.963Z [info]: LetsEncrypt account created successfully
+2024-10-04T07:01:32.964Z [info]: Starting certificate acquisition for www.wexfi.com
+2024-10-04T07:01:32.964Z [info]: Generating CSR for www.wexfi.com
+2024-10-04T07:01:33.125Z [info]: Initiating ACME challenge for www.wexfi.com
+2024-10-04T07:01:34.722Z [info]: Challenge created for www.wexfi.com
+2024-10-04T07:01:34.723Z [info]: Challenge type: dns-01
+2024-10-04T07:01:34.723Z [info]: DNS record name: _acme-challenge.www.wexfi.com
+2024-10-04T07:01:34.723Z [info]: DNS record value: ybPlkhdk5212T6eZXnBiZ1-YWCm58SOkz9VgboFY_9s
+2024-10-04T07:01:34.739Z [warn]: Error checking DNS record: queryTxt ENOTFOUND _acme-challenge.www.wexfi.com
+2024-10-04T07:01:34.739Z [info]: DNS record not propagated yet. Attempt 1/10
+2024-10-04T07:02:04.740Z [warn]: Error checking DNS record: queryTxt ENOTFOUND _acme-challenge.www.wexfi.com
+2024-10-04T07:02:04.740Z [info]: DNS record not propagated yet. Attempt 2/10
+2024-10-04T07:02:34.804Z [warn]: Error checking DNS record: queryTxt ENOTFOUND _acme-challenge.www.wexfi.com
+2024-10-04T07:02:34.805Z [info]: DNS record not propagated yet. Attempt 3/10
+2024-10-04T07:03:04.805Z [warn]: Error checking DNS record: queryTxt ENOTFOUND _acme-challenge.www.wexfi.com
+2024-10-04T07:03:04.806Z [info]: DNS record not propagated yet. Attempt 4/10
+2024-10-04T07:03:34.806Z [warn]: Error checking DNS record: queryTxt ENOTFOUND _acme-challenge.www.wexfi.com
+2024-10-04T07:03:34.806Z [info]: DNS record not propagated yet. Attempt 5/10
+2024-10-04T07:04:04.806Z [warn]: Error checking DNS record: queryTxt ENOTFOUND _acme-challenge.www.wexfi.com
+2024-10-04T07:04:04.806Z [info]: DNS record not propagated yet. Attempt 6/10
+2024-10-04T07:04:34.807Z [warn]: Error checking DNS record: queryTxt ENOTFOUND _acme-challenge.www.wexfi.com
+2024-10-04T07:04:34.807Z [info]: DNS record not propagated yet. Attempt 7/10
+2024-10-04T07:05:04.808Z [warn]: Error checking DNS record: queryTxt ENOTFOUND _acme-challenge.www.wexfi.com
+2024-10-04T07:05:04.809Z [info]: DNS record not propagated yet. Attempt 8/10
+2024-10-04T07:05:34.808Z [warn]: Error checking DNS record: queryTxt ENOTFOUND _acme-challenge.www.wexfi.com
+2024-10-04T07:05:34.808Z [info]: DNS record not propagated yet. Attempt 9/10
+2024-10-04T07:06:04.809Z [warn]: Error checking DNS record: queryTxt ENOTFOUND _acme-challenge.www.wexfi.com
+2024-10-04T07:06:04.809Z [info]: DNS record not propagated yet. Attempt 10/10
+2024-10-04T07:06:34.810Z [info]: Challenge removed for www.wexfi.com
+2024-10-04T07:06:34.811Z [info]: DNS record name: _acme-challenge.www.wexfi.com
+2024-10-04T07:06:36.074Z [error]: Error getting certificate for www.wexfi.com: DNS record did not propagate within the expected time for www.wexfi.com
+2024-10-04T07:06:36.075Z [error]: Failed to renew certificate for [object Object]: DNS record did not propagate within the expected time for www.wexfi.com
+2024-10-04T07:06:36.075Z [info]: Starting certificate acquisition for api.wexfi.com
+2024-10-04T07:06:36.075Z [info]: Generating CSR for api.wexfi.com
+2024-10-04T07:06:36.364Z [info]: Initiating ACME challenge for api.wexfi.com
+2024-10-04T07:06:38.016Z [info]: Challenge created for api.wexfi.com
+2024-10-04T07:06:38.016Z [info]: Challenge type: dns-01
+2024-10-04T07:06:38.017Z [info]: DNS record name: _acme-challenge.api.wexfi.com
+2024-10-04T07:06:38.017Z [info]: DNS record value: wnjt-NE7myztSsgMqnwJANUxeAV9pGy3o5uEpRo8BgA
+2024-10-04T07:06:38.081Z [warn]: Error checking DNS record: queryTxt ENOTFOUND _acme-challenge.api.wexfi.com
+2024-10-04T07:06:38.081Z [info]: DNS record not propagated yet. Attempt 1/10
+2024-10-04T07:11:24.518Z [info]: Initializing LetsEncrypt service...
+2024-10-04T07:11:24.963Z [info]: Creating ACME account...
+2024-10-04T07:11:26.496Z [info]: LetsEncrypt account created successfully
+2024-10-04T07:11:26.496Z [info]: Starting certificate acquisition for www.wexfi.com
+2024-10-04T07:11:26.497Z [info]: Generating CSR for www.wexfi.com
+2024-10-04T07:11:26.654Z [info]: Initiating ACME challenge for www.wexfi.com
+2024-10-04T07:11:28.427Z [info]: Challenge created for www.wexfi.com
+2024-10-04T07:11:28.428Z [info]: Challenge type: dns-01
+2024-10-04T07:11:28.428Z [info]: DNS record name: _acme-challenge.www.wexfi.com
+2024-10-04T07:11:28.428Z [info]: DNS record value: P8fpBeqBTAKrlDQ2uvsrESCjZTLQ-0ciH8BfHttu1No
+2024-10-04T07:12:34.579Z [warn]: Error checking DNS record for www.wexfi.com: queryTxt ENOTFOUND _acme-challenge.www.wexfi.com
+2024-10-04T07:12:34.580Z [info]: DNS record not propagated yet for www.wexfi.com. Attempt 1/20
+2024-10-04T07:13:34.528Z [warn]: Error checking DNS record for www.wexfi.com: queryTxt ENOTFOUND _acme-challenge.www.wexfi.com
+2024-10-04T07:13:34.529Z [info]: DNS record not propagated yet for www.wexfi.com. Attempt 2/20
+2024-10-04T07:14:34.593Z [warn]: Error checking DNS record for www.wexfi.com: queryTxt ENOTFOUND _acme-challenge.www.wexfi.com
+2024-10-04T07:14:34.593Z [info]: DNS record not propagated yet for www.wexfi.com. Attempt 3/20
+2024-10-04T07:15:34.593Z [warn]: Error checking DNS record for www.wexfi.com: queryTxt ENOTFOUND _acme-challenge.www.wexfi.com
+2024-10-04T07:15:34.594Z [info]: DNS record not propagated yet for www.wexfi.com. Attempt 4/20
+2024-10-04T07:16:34.593Z [warn]: Error checking DNS record for www.wexfi.com: queryTxt ENOTFOUND _acme-challenge.www.wexfi.com
+2024-10-04T07:16:34.594Z [info]: DNS record not propagated yet for www.wexfi.com. Attempt 5/20
+2024-10-04T07:17:34.591Z [warn]: Error checking DNS record for www.wexfi.com: queryTxt ENOTFOUND _acme-challenge.www.wexfi.com
+2024-10-04T07:17:34.591Z [info]: DNS record not propagated yet for www.wexfi.com. Attempt 6/20
+2024-10-04T07:18:34.591Z [warn]: Error checking DNS record for www.wexfi.com: queryTxt ENOTFOUND _acme-challenge.www.wexfi.com
+2024-10-04T07:18:34.591Z [info]: DNS record not propagated yet for www.wexfi.com. Attempt 7/20
+2024-10-04T07:19:34.660Z [warn]: Error checking DNS record for www.wexfi.com: queryTxt ENOTFOUND _acme-challenge.www.wexfi.com
+2024-10-04T07:19:34.661Z [info]: DNS record not propagated yet for www.wexfi.com. Attempt 8/20
+2024-10-04T07:20:34.660Z [warn]: Error checking DNS record for www.wexfi.com: queryTxt ENOTFOUND _acme-challenge.www.wexfi.com
+2024-10-04T07:20:34.661Z [info]: DNS record not propagated yet for www.wexfi.com. Attempt 9/20
+2024-10-04T07:20:57.621Z [info]: Initializing LetsEncrypt service...
+2024-10-04T07:20:58.395Z [info]: Creating ACME account...
+2024-10-04T07:21:00.079Z [info]: LetsEncrypt account created successfully
+2024-10-04T07:21:00.079Z [info]: Starting certificate acquisition for www.wexfi.com
+2024-10-04T07:21:00.080Z [info]: Generating CSR for www.wexfi.com
+2024-10-04T07:21:00.602Z [info]: Initiating ACME challenge for www.wexfi.com
+2024-10-04T07:21:02.322Z [info]: Challenge created for www.wexfi.com
+2024-10-04T07:21:02.323Z [info]: Challenge type: dns-01
+2024-10-04T07:21:02.323Z [info]: DNS record name: _acme-challenge.www.wexfi.com
+2024-10-04T07:21:02.323Z [info]: DNS record value: _gytOGR7n5Ja4si5cjv8Bzi3dPh9K_g000bgtHz7SJI
+2024-10-04T07:21:47.636Z [info]: DNS record propagated for www.wexfi.com
+2024-10-04T07:21:55.979Z [info]: Challenge removed for www.wexfi.com
+2024-10-04T07:21:55.979Z [info]: DNS record name: _acme-challenge.www.wexfi.com
+2024-10-04T07:22:04.879Z [info]: Certificate acquired successfully for www.wexfi.com
+2024-10-04T07:22:04.880Z [info]: Starting certificate acquisition for api.wexfi.com
+2024-10-04T07:22:04.880Z [info]: Generating CSR for api.wexfi.com
+2024-10-04T07:22:05.019Z [info]: Initiating ACME challenge for api.wexfi.com
+2024-10-04T07:22:06.735Z [info]: Challenge created for api.wexfi.com
+2024-10-04T07:22:06.735Z [info]: Challenge type: dns-01
+2024-10-04T07:22:06.736Z [info]: DNS record name: _acme-challenge.api.wexfi.com
+2024-10-04T07:22:06.736Z [info]: DNS record value: VU23OhqIN7xU3R5-iDeR1DEUbfhoZRHZQCAHr9tUFCQ
+2024-10-04T07:22:56.559Z [info]: DNS record propagated for api.wexfi.com
+2024-10-04T07:22:58.644Z [info]: Challenge removed for api.wexfi.com
+2024-10-04T07:22:58.645Z [info]: DNS record name: _acme-challenge.api.wexfi.com
+2024-10-04T07:23:01.211Z [info]: Certificate acquired successfully for api.wexfi.com
+2024-10-04T07:23:01.211Z [info]: Starting certificate acquisition for socket.wexfi.com
+2024-10-04T07:23:01.211Z [info]: Generating CSR for socket.wexfi.com
+2024-10-04T07:23:01.405Z [info]: Initiating ACME challenge for socket.wexfi.com
+2024-10-04T07:23:03.157Z [info]: Challenge created for socket.wexfi.com
+2024-10-04T07:23:03.157Z [info]: Challenge type: dns-01
+2024-10-04T07:23:03.157Z [info]: DNS record name: _acme-challenge.socket.wexfi.com
+2024-10-04T07:23:03.158Z [info]: DNS record value: K2QMwDCH93xWl6SN2IKSy4YMIcNIKWOUvhHs7QzvXGI
+2024-10-04T07:23:33.885Z [info]: DNS record propagated for socket.wexfi.com
+2024-10-04T07:23:36.026Z [info]: Challenge removed for socket.wexfi.com
+2024-10-04T07:23:36.026Z [info]: DNS record name: _acme-challenge.socket.wexfi.com
+2024-10-04T07:23:44.731Z [info]: Certificate acquired successfully for socket.wexfi.com
+2024-10-04T07:23:44.734Z [info]: Output file written to ./acme.json
+2024-10-04T07:23:44.734Z [info]: Certificate renewal process completed successfully
+2024-10-04T07:27:15.928Z [info]: Initializing LetsEncrypt service...
+2024-10-04T07:27:16.229Z [info]: Creating ACME account...
+2024-10-04T07:27:17.928Z [info]: LetsEncrypt account created successfully
+2024-10-04T07:27:17.928Z [info]: Starting certificate acquisition for www.wexfi.com
+2024-10-04T07:27:17.929Z [info]: Generating CSR for www.wexfi.com
+2024-10-04T07:27:18.391Z [info]: Initiating ACME challenge for www.wexfi.com
+2024-10-04T07:27:20.079Z [info]: Challenge created for www.wexfi.com
+2024-10-04T07:27:20.080Z [info]: Challenge type: dns-01
+2024-10-04T07:27:20.080Z [info]: DNS record name: _acme-challenge.www
+2024-10-04T07:27:20.080Z [info]: DNS record value: jM5BRHy8fU9itseqwjnHZQ9kaScecmbdIBnJCr2hPoA
+2024-10-04T07:34:01.494Z [info]: Initializing LetsEncrypt service...
+2024-10-04T07:34:01.583Z [info]: Creating ACME account...
+2024-10-04T07:34:03.237Z [info]: LetsEncrypt account created successfully
+2024-10-04T07:34:03.238Z [info]: Starting certificate acquisition for www.wexfi.com
+2024-10-04T07:34:03.238Z [info]: Generating CSR for www.wexfi.com
+2024-10-04T07:34:03.748Z [info]: Initiating ACME challenge for www.wexfi.com
+2024-10-04T07:34:05.326Z [info]: Challenge created for www.wexfi.com
+2024-10-04T07:34:05.326Z [info]: Challenge type: dns-01
+2024-10-04T07:34:05.326Z [info]: DNS record name: _acme-challenge.www
+2024-10-04T07:34:05.327Z [info]: DNS record value: h13uUXyliYozVfXQtaEqD4Th1Ou9W8fCOcVdk8Eslu4
+2024-10-04T07:34:24.372Z [warn]: Error checking DNS record for www: queryTxt ENOTFOUND _acme-challenge.www
+2024-10-04T07:34:24.373Z [info]: DNS record not propagated yet for www. Attempt 1/20
+2024-10-04T07:35:02.490Z [info]: Initializing LetsEncrypt service...
+2024-10-04T07:35:02.636Z [info]: Creating ACME account...
+2024-10-04T07:35:04.155Z [info]: LetsEncrypt account created successfully
+2024-10-04T07:35:04.156Z [info]: Starting certificate acquisition for www.wexfi.com
+2024-10-04T07:35:04.156Z [info]: Generating CSR for www.wexfi.com
+2024-10-04T07:35:04.451Z [info]: Initiating ACME challenge for www.wexfi.com
+2024-10-04T07:35:06.201Z [info]: Challenge created for www.wexfi.com
+2024-10-04T07:35:06.202Z [info]: Challenge type: dns-01
+2024-10-04T07:35:06.202Z [info]: DNS record name: _acme-challenge.www
+2024-10-04T07:35:06.202Z [info]: DNS record value: xpH5JbAd46YibERIuZQwOPafgZ2HndzBXrciclhaaF0
+2024-10-04T07:35:17.654Z [info]: DNS record not propagated yet for www.wexfi.com. Attempt 1/20
+2024-10-04T07:35:50.899Z [info]: Initializing LetsEncrypt service...
+2024-10-04T07:35:51.053Z [info]: Creating ACME account...
+2024-10-04T07:35:52.599Z [info]: LetsEncrypt account created successfully
+2024-10-04T07:35:52.599Z [info]: Starting certificate acquisition for www.wexfi.com
+2024-10-04T07:35:52.599Z [info]: Generating CSR for www.wexfi.com
+2024-10-04T07:35:52.995Z [info]: Initiating ACME challenge for www.wexfi.com
+2024-10-04T07:35:54.737Z [info]: Challenge created for www.wexfi.com
+2024-10-04T07:35:54.738Z [info]: Challenge type: dns-01
+2024-10-04T07:35:54.738Z [info]: DNS record name: _acme-challenge.www
+2024-10-04T07:35:54.738Z [info]: DNS record value: vWz_V4Ia5Wwg7Pc7w_aOoSMC4trzyz7ZVonA3Vz7bTY
+2024-10-04T07:36:04.707Z [warn]: Error checking DNS record for _acme-challenge.www.wexfi.com: queryTxt ENOTFOUND _acme-challenge._acme-challenge.www.wexfi.com
+2024-10-04T07:36:04.707Z [info]: DNS record not propagated yet for _acme-challenge.www.wexfi.com. Attempt 1/20
+2024-10-04T07:37:03.104Z [info]: Initializing LetsEncrypt service...
+2024-10-04T07:37:03.236Z [info]: Creating ACME account...
+2024-10-04T07:37:04.855Z [info]: LetsEncrypt account created successfully
+2024-10-04T07:37:04.856Z [info]: Starting certificate acquisition for www.wexfi.com
+2024-10-04T07:37:04.856Z [info]: Generating CSR for www.wexfi.com
+2024-10-04T07:37:05.210Z [info]: Initiating ACME challenge for www.wexfi.com
+2024-10-04T07:37:06.929Z [info]: Challenge created for www.wexfi.com
+2024-10-04T07:37:06.930Z [info]: Challenge type: dns-01
+2024-10-04T07:37:06.930Z [info]: DNS record name: _acme-challenge.www
+2024-10-04T07:37:06.930Z [info]: DNS record value: VI0GOC6f46l4XRL1oWeatKErcRZmq0TYu733sOAfA6s
+2024-10-04T07:37:08.441Z [info]: DNS record not propagated yet for www.wexfi.com. Attempt 1/20
+2024-10-04T07:37:12.941Z [info]: Initializing LetsEncrypt service...
+2024-10-04T07:37:13.338Z [info]: Creating ACME account...
+2024-10-04T07:37:14.814Z [info]: LetsEncrypt account created successfully
+2024-10-04T07:37:14.815Z [info]: Starting certificate acquisition for www.wexfi.com
+2024-10-04T07:37:14.815Z [info]: Generating CSR for www.wexfi.com
+2024-10-04T07:37:15.021Z [info]: Initiating ACME challenge for www.wexfi.com
+2024-10-04T07:37:16.761Z [info]: Challenge created for www.wexfi.com
+2024-10-04T07:37:16.761Z [info]: Challenge type: dns-01
+2024-10-04T07:37:16.762Z [info]: DNS record name: _acme-challenge.www
+2024-10-04T07:37:16.762Z [info]: DNS record value: a0GKxf4AtLTE_Kz_Zy8mumIhESPbM-HBnBa9P1yd9y8
+2024-10-04T07:41:41.452Z [info]: DNS record not propagated yet for www.wexfi.com. Attempt 1/20
