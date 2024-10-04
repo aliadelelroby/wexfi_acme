@@ -21,12 +21,11 @@ class CertificateService {
         }
 
         if (cert) {
-          // Format and encode certificate (including the full chain) and key
-          cert.certificate = this.formatAndEncodeCertificateChain(
+          cert.certificate = this.encodeCertificateChain(
             cert.certificate,
             cert.chain
           );
-          cert.key = this.formatAndEncodeKey(cert.key);
+          cert.key = this.encodeKey(cert.key);
 
           certificates.push(cert);
         }
@@ -42,29 +41,13 @@ class CertificateService {
     return certificates;
   }
 
-  formatAndEncodeCertificateChain(certificate, chain) {
-    const pemCertificate = this.formatPEM(certificate, "CERTIFICATE");
-    const pemChain = Array.isArray(chain)
-      ? chain.map((cert) => this.formatPEM(cert, "CERTIFICATE")).join("\n")
-      : "";
-    const fullChain = pemCertificate + (pemChain ? "\n" + pemChain : "");
+  encodeCertificateChain(certificate, chain) {
+    const fullChain = [certificate, ...chain].join("\n");
     return Buffer.from(fullChain).toString("base64");
   }
 
-  formatAndEncodeKey(key) {
-    const pemKey = this.formatPEM(key, "RSA PRIVATE KEY");
-    return Buffer.from(pemKey).toString("base64");
-  }
-
-  formatPEM(data, type) {
-    if (!data) {
-      logger.warn(`Attempted to format undefined PEM data for type: ${type}`);
-      return "";
-    }
-    const pemHeader = `-----BEGIN ${type}-----\n`;
-    const pemFooter = `\n-----END ${type}-----`;
-    const pemContent = data.match(/.{1,64}/g).join("\n");
-    return pemHeader + pemContent + pemFooter;
+  encodeKey(key) {
+    return Buffer.from(key).toString("base64");
   }
 }
 
