@@ -318,3 +318,91 @@
 2024-10-04T07:37:16.762Z [info]: DNS record name: _acme-challenge.www
 2024-10-04T07:37:16.762Z [info]: DNS record value: a0GKxf4AtLTE_Kz_Zy8mumIhESPbM-HBnBa9P1yd9y8
 2024-10-04T07:41:41.452Z [info]: DNS record not propagated yet for www.wexfi.com. Attempt 1/20
+2024-10-15T17:11:54.183Z [info]: Initializing LetsEncrypt service...
+2024-10-15T17:11:54.367Z [info]: Creating ACME account...
+2024-10-15T17:11:56.142Z [info]: LetsEncrypt account created successfully
+2024-10-15T17:11:56.143Z [info]: Starting certificate acquisition for www.wexfi.com
+2024-10-15T17:11:56.143Z [info]: Generating CSR for www.wexfi.com
+2024-10-15T17:11:56.433Z [info]: Initiating ACME challenge for www.wexfi.com
+2024-10-15T17:11:58.091Z [info]: Challenge created for www.wexfi.com
+2024-10-15T17:11:58.091Z [info]: Challenge type: dns-01
+2024-10-15T17:11:58.091Z [info]: DNS record name: _acme-challenge.www
+2024-10-15T17:11:58.091Z [info]: DNS record value: ZSmAxdzTQwOzbMse4khMbwI8axAcFpp1xNQASvJze_4
+2024-10-15T17:13:38.162Z [info]: Initializing LetsEncrypt service...
+2024-10-15T17:13:38.374Z [info]: Creating ACME account...
+2024-10-15T17:13:39.881Z [info]: LetsEncrypt account created successfully
+2024-10-15T17:13:39.881Z [info]: Starting certificate acquisition for www.wexfi.com
+2024-10-15T17:13:39.882Z [info]: Generating CSR for www.wexfi.com
+2024-10-15T17:13:40.104Z [info]: Initiating ACME challenge for www.wexfi.com
+2024-10-15T17:13:41.933Z [info]: Challenge created for www.wexfi.com
+2024-10-15T17:13:41.933Z [info]: Challenge type: dns-01
+2024-10-15T17:13:41.933Z [info]: DNS record name: _acme-challenge.www
+2024-10-15T17:13:41.934Z [info]: DNS record value: bs_ppuXWSqVsU1ksS7URbbL2B5FiZOSVfHUPNXlExKU
+2024-10-15T17:13:54.934Z [info]: DNS record propagated for www.wexfi.com
+2024-10-15T17:13:56.958Z [info]: Challenge removed for www.wexfi.com
+2024-10-15T17:13:56.958Z [info]: DNS record name: _acme-challenge.www.wexfi.com
+2024-10-15T17:14:05.902Z [info]: Certificate acquired successfully for www.wexfi.com
+2024-10-15T17:14:05.903Z [warn]: Chain is not an array for certificate: -----BEGIN CERTIFICATE-----
+MIIFIzCCBAugAwIBAgISK5c7PaxymMw5mD/i803fZK1HMA0GCSqGSIb3DQEBCwUA
+MFoxCzAJBgNVBAYTAlVTMSAwHgYDVQQKExcoU1RBR0lORykgTGV0J3MgRW5jcnlw
+dDEpMCcGA1UEAxMgKFNUQUdJTkcpIFdhbm5hYmUgV2F0ZXJjcmVzcyBSMTEwHhcN
+MjQxMDE1MTYxNTI3WhcNMjUwMTEzMTYxNTI2WjAYMRYwFAYDVQQDEw13d3cud2V4
+ZmkuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArBYTW9zxBvVk
+pgtzgAlzzZzKImDQ+7LFbzKSEFChB3lpi2hK/Y5xZLzsFJqbLvCQ/bmCaUXzJaU5
+wvUmKnSD/maG5H5CGaF2IAM/MopFRwl6axnRTAPVOHdt1PJEF2okxzlQ8OBzjoPz
+aVlsSSda14Abdh7BsVkGUxU2i8Yn9EwHYWAmXBXmxjeDmJkjqydP/gYjevBy+zE7
+7kMFPH2MsLYWIXdlT3sRLkG0bkrP8/eY0bWUT+lD6KR54qnN0lI7mL6+DvX5CUd/
+KO7GrHHux+nbyYUFdfYV/H66g2PPnnZXDwzf/iSgRzHQVsnzLrRw+otburN7w2FK
+I5/EAj3WzwIDAQABo4ICIzCCAh8wDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQG
+CCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBTwOsAt
+3VdmeQljMC8SoeHb0yaHUzAfBgNVHSMEGDAWgBQTy9f2rp38aUJk1lx8I8yF+UfH
+tjBfBggrBgEFBQcBAQRTMFEwJgYIKwYBBQUHMAGGGmh0dHA6Ly9zdGctcjExLm8u
+bGVuY3Iub3JnMCcGCCsGAQUFBzAChhtodHRwOi8vc3RnLXIxMS5pLmxlbmNyLm9y
+Zy8wGAYDVR0RBBEwD4INd3d3LndleGZpLmNvbTATBgNVHSAEDDAKMAgGBmeBDAEC
+ATCCAQ4GCisGAQQB1nkCBAIEgf8EgfwA+gB3ALDMg+Wl+X1rr3wJzChJBIcqx+iL
+EyxjULfG/SbhbGx3AAABkpEsE0AAAAQDAEgwRgIhAKbfWK8ybw6Lvd/lDKyGELy7
+NywDLnxXh9hbamHmRdDhAiEA2roYwqLWyeD2S0P46naM+4ADwce6+iPwmuVauchB
+d/sAfwCVkL2F8s/FBkmYq6tbsmwuehdnApEcE7aLSAXh65Qn7wAAAZKRLB73AAgA
+AAUAB7GoyQQDAEgwRgIhANvWpWPoopQyYMP8x0XRl7APMRYigIizBAx7zQ0TCQc/
+AiEA8ZRLG+Q7hqROBuuPpRHCb2tpNtdwFZJvomB5k2qaGXQwDQYJKoZIhvcNAQEL
+BQADggEBAGvh5InRM1rVyLNgrpngCeqvRxRutvjlcjbFKk0khbF6r77DePHvvEaT
+OWPLOySm+fpZFZDC0fFxkmWK7B3P7tmJy4qcJ32TiXsQtJxOnbqAtcgtV6do1m4U
+5zT6V2DalRYOXzzoSgjltLNREQ3RbgdwbYcPF92LPJ88ZkHg0Rn1J1/QJY3RiaQB
+ATKUwTTuE0x+0sAIEMpUWHhBbtipYbqgrXcHKYeWEfafeQEltaL3d4pA4XiNPHAc
+zTwvF0ayQ/1uZv0NwmtU4ScL5QZVVy4qgw9CE1Qp+qzf87Z4PUUrCRuRvJfaWIB1
+7KwWgap0QRRDMlZ8JV5TkmD5z5lZnxU=
+-----END CERTIFICATE-----
+
+-----BEGIN CERTIFICATE-----
+MIIFTTCCAzWgAwIBAgIRAOOuDiVgQFyATegPOxfOa5IwDQYJKoZIhvcNAQELBQAw
+ZjELMAkGA1UEBhMCVVMxMzAxBgNVBAoTKihTVEFHSU5HKSBJbnRlcm5ldCBTZWN1
+cml0eSBSZXNlYXJjaCBHcm91cDEiMCAGA1UEAxMZKFNUQUdJTkcpIFByZXRlbmQg
+UGVhciBYMTAeFw0yNDAzMTMwMDAwMDBaFw0yNzAzMTIyMzU5NTlaMFoxCzAJBgNV
+BAYTAlVTMSAwHgYDVQQKExcoU1RBR0lORykgTGV0J3MgRW5jcnlwdDEpMCcGA1UE
+AxMgKFNUQUdJTkcpIFdhbm5hYmUgV2F0ZXJjcmVzcyBSMTEwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQCVYHwe2gxMv9Jh/d1BgocW3am5E/iBOrLkyENg
+RqLmVl6vNRXgoKpPjtP40Mv17Z2LlYhRsneaK9gdSNmNTxJlY8viqs9dk4XwKJxD
+Pfl/vJBW4M/nJzFwS30qu7VF8jSfyF82Q7KkLl5NxJ39Y5yvQFzHjL3YCO8coMG5
+v72DDgWzc+9wk2ncoXiB3/3mVg4RtD1w1xPpdjtSh5keB7jqgnD2/I75OLBzamy6
+NL9nguaEc8cX8CdnpoCCQI8/Fz9qhPtJjP+O/RHCugWVkSptuCRra8tcnJTGHRiN
+r/GyYsHZZ4jZ76hbJjxapwf24E8RAVzuMRsw/nS6/hUJ8lqPAgMBAAGjggEAMIH9
+MA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEw
+EgYDVR0TAQH/BAgwBgEB/wIBADAdBgNVHQ4EFgQUE8vX9q6d/GlCZNZcfCPMhflH
+x7YwHwYDVR0jBBgwFoAUtfNl8v6wCpIf+zx980SgrGMlwxQwNgYIKwYBBQUHAQEE
+KjAoMCYGCCsGAQUFBzAChhpodHRwOi8vc3RnLXgxLmkubGVuY3Iub3JnLzATBgNV
+HSAEDDAKMAgGBmeBDAECATArBgNVHR8EJDAiMCCgHqAchhpodHRwOi8vc3RnLXgx
+LmMubGVuY3Iub3JnLzANBgkqhkiG9w0BAQsFAAOCAgEAeD9pt5sWtXEQyF94RMzo
+lF+uip+ODYaNxPEJG/93xtxPc6QC0bsC9QIgv6dBk+s1LUf5ulIlJZQ1UlkLgTH4
+HzHi37O4ivcbSHpILcgD0hKnftv0E8o9SNAaIcO7DKNmbeWQ6cPlfOlRtpcIXYoc
+95wY9AipN0/ken5KxDxdxTSKuWS7Ae+ZWh7hmLdfDc5C85o2omLvM/6Ovmp0xUSP
+U/xFR1fk0kRmM975smehEOXSHOJ24zFaY6BnMUWa67yLawbxUj0AqzGmohdqz7Lu
+DhtKd9oXJgRzacFzuMSQluN0ivwKIzirpLR/AJoz4nHXIaDQRyfaA3jr1VYpK+bA
+poIXAjgxR/vEFtbEHw7fNO3FKRCddvyJ0vh+OKIrY0nrbGUoyRlPlKF/9XrQ3UJo
+Zc708mBBjzqijXdUQ0TB1/irAAQ7O/6i+ThQxElt77gYWzv2/8sSoagzqRKXOqLJ
+ckNJQIA39t4HMIFgqxDLRuRNtooFUeoOvocDWTQr80bUp6357cBtAl7ypcOzrPK6
+m5cuuyZfQ7zdh5ufcfMdFbgjwfeN8d442EzBnLxoMA9T2Igfn7KOhFl3znZ+WJhS
+h+oyBS8PrKUKB2Xo9pnXma6123xyFPDapnuK3iiNpGJfI0sULCqjEodYG+aGyfCz
+ZFLWftbU683YxZCOddgYxHI=
+-----END CERTIFICATE-----
+
+2024-10-15T17:14:05.909Z [info]: Output file written to ./acme.json

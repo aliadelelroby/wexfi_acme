@@ -72,7 +72,8 @@ class LetsEncryptService {
 
   async challengeCreateFn(authz, challenge, keyAuthorization) {
     const domain = authz.identifier.value;
-    const subdomain = domain.split(".")[0];
+    const subdomain =
+      domain.split(".").length === 2 ? "@" : domain.split(".")[0];
     logger.info(`Challenge created for ${domain}`);
     logger.info(`Challenge type: ${challenge.type}`);
     logger.info(`DNS record name: _acme-challenge.${subdomain}`);

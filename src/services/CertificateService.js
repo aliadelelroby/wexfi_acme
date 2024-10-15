@@ -1,5 +1,5 @@
-const config = require("../config/config");
 const letsEncryptService = require("./LetsEncryptService");
+const config = require("../config/config");
 const logger = require("../utils/logger");
 
 class CertificateService {
