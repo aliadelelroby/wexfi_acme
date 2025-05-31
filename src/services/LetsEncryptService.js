@@ -73,10 +73,12 @@ class LetsEncryptService {
   async challengeCreateFn(authz, challenge, keyAuthorization) {
     const domain = authz.identifier.value;
     const subdomain =
-      domain.split(".").length === 2 ? "@" : domain.split(".")[0];
+      domain.split(".").length === 2 ? null : domain.split(".")[0];
     logger.info(`Challenge created for ${domain}`);
     logger.info(`Challenge type: ${challenge.type}`);
-    logger.info(`DNS record name: _acme-challenge.${subdomain}`);
+    logger.info(
+      `DNS record name: _acme-challenge${subdomain ? `.${subdomain}` : ""}`
+    );
     logger.info(`DNS record value: ${keyAuthorization}`);
 
     console.log("=== DNS Challenge Instructions ===");
@@ -84,7 +86,7 @@ class LetsEncryptService {
       "To complete the ACME challenge, add the following DNS record:"
     );
     console.log(`Type: TXT`);
-    console.log(`Name: _acme-challenge.${subdomain}`);
+    console.log(`Name: _acme-challenge${subdomain ? `.${subdomain}` : ""}`);
     console.log(`Value: ${keyAuthorization}`);
     console.log("Please note:");
     console.log(
