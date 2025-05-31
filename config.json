@@ -1,12 +1,10 @@
 {
   "email": "contact@wexfi.com",
   "domains": [
-    {
-      "main": "www.wexfi.com",
-      "sans": ["wexfi.com"]
-    },
+    "www.wexfi.com",
+    "wexfi.com",
     "api.wexfi.com",
     "socket.wexfi.com"
   ],
-  "outputPath": "./acme.json"
+  "outputPath": "/mnt/main_volume/traefik-config/acme.json"
 }
